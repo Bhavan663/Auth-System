@@ -23,5 +23,5 @@ mongoose.connect(url)
     console.log("Mongoose connected.")
 })
 .catch((err) =>{
-    console.log(err)
+    console.log("err")
 })
